@@ -1,27 +1,3 @@
-// // index.js
-// const express = require('express');
-// const bodyParser = require('body-parser');
-// const indiaRoutes = require('./routes/india');
-// const usaRoutes = require('./routes/usa');
-// const complianceRoutes = require('./routes/compliance');
-
-// const app = express();
-// const PORT = 3000;
-
-// app.use(bodyParser.json());
-// app.use('/india', indiaRoutes);
-// app.use('/usa', usaRoutes);
-// app.use('/api', complianceRoutes);
-
-// app.get('/', (req, res) => {
-//   res.send('Export Compliance API is running!');
-// });
-
-// app.listen(PORT, () => {
-//   console.log(`Server is running on http://localhost:${PORT}`);
-// });
-
-// index.js
 const express = require('express');
 const bodyParser = require('body-parser');
 const indiaRoutes = require('./routes/india');
